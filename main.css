@@ -1,0 +1,9 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    
+}
+href {
+    text-decoration: none;
+}
