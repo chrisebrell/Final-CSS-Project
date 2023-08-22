@@ -1,9 +1,36 @@
-.container-fluid {
+.container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: black;
     
 }
-href {
-    text-decoration: none;
+.google-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    height: 150px;
+}
+.search-bar {
+    position: absolute;
+    transform: translate(110%, 260%);
+    width: 600px;
+    height: 120px;
+}
+.google-search {
+    position: absolute;
+    transform: translate(780%, 1550%);
+}
+.feeling-lucky {
+    position: absolute;
+    transform: translate(820%, 1550%)
+}
+footer {
+    display: flex;
+    position: absolute;
+    transform: translate(0%, 1750%);
+    justify-content: space-around;
 }
